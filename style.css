@@ -22,22 +22,20 @@ body{
 }
 
 .dropdown{
-    margin-left: 250px;
-    width: 50%;
-    margin-top: 20px;
+    width: 100%;
+    margin-top: 15px;
     position: relative;
     display: none;
 }
 
 .dropdown-content{
     display: none;
-    position: absolute;
+    position: relative;
     z-index: 3;
     background-color: seagreen;
     padding: 10px;
-    right: 0;
-    margin-top: 40px;
-    margin-right: 75px;
+    margin-top: 70px;
+    left: 0;
 }
 
 .dropdown-content a{
@@ -50,12 +48,17 @@ body{
     background-color: seagreen;
     color: antiquewhite;
     float: right;
-    margin-right: 100px;
+    margin-right: 15px;
 }
 
-.dropdown:active .dropdown-content{
-    display: block;
+.dropdown button img{
+    width: 35px;
+    height: 30px;
 }
+
+/* .dropdown:active .dropdown-content{
+    display: block;
+} */
 
 .dropdown-content a{
     text-decoration: none;
@@ -316,7 +319,7 @@ body{
     }
 
     .product-card{
-        width: 500px;
+        width: 400px;
         margin: auto;
     }
 }
@@ -331,8 +334,8 @@ body{
     }
 }
 
-@media (max-width: 1300px){
+@media (max-width: 1330px){
     .search-icon-div{
-        margin-left: 0;
+        display: none;
     }
 }
