@@ -378,6 +378,10 @@ body{
         display: flex;
         justify-content: center;
     }
+
+    .icons{
+        margin-right: 0px;
+    }
 }
 
 @media (max-width: 445px){
