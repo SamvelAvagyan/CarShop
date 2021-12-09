@@ -280,6 +280,11 @@ body{
     border-radius: 10px;
 }
 
+#login-div{
+    height: 225px;
+    margin-top: 50px;
+}
+
 .register-div input{
     width: 200px;
     height: 35px;
