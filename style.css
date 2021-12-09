@@ -32,7 +32,7 @@ body{
     width: 100%;
     display: none;
     position: relative;
-    z-index: 3;
+    z-index: 4;
     background-color: seagreen;
     padding: 10px;
     margin-top: 70px;
@@ -373,10 +373,27 @@ body{
     .product-card{
         width: 250px;
     }
+
+    .footer{
+        display: flex;
+        justify-content: center;
+        margin-left: 15px;
+    }
 }
 
 @media (max-width: 445px){
     .intro-content{
         margin-left: 30px;
+    }
+}
+
+
+@media (max-width: 343px){
+    .intro-content{
+        margin-left: 20px;
+    }
+
+    .product-card{
+        width: 200px;
     }
 }
