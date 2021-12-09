@@ -377,7 +377,6 @@ body{
     .footer{
         display: flex;
         justify-content: center;
-        margin-left: 15px;
     }
 }
 
@@ -385,12 +384,28 @@ body{
     .intro-content{
         margin-left: 30px;
     }
+
+    .register-div{
+        width: 300px;
+    }
+
+    .register-div input{
+        width: 150px;
+    }
+
+    .register-div button{
+        width: 150px;
+    }
 }
 
 
 @media (max-width: 343px){
     .intro-content{
         margin-left: 20px;
+    }
+
+    .register-div{
+        width: 250px;
     }
 
     .product-card{
